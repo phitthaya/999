@@ -35,8 +35,8 @@ Exc = [line]
 lineMID = line.getProfile().mid
 bot1 = line.getProfile().mid
 RfuBot=[lineMID]
-Family=["u0035a5a6c5ae9d30c9a0992ecbc39395",lineMID]
-admin=['u0035a5a6c5ae9d30c9a0992ecbc39395',lineMID]
+Family=["u3f3acb2be414b688b55a4f9241e7568d",lineMID]
+admin=['u3f3acb2be414b688b55a4f9241e7568d',lineMID]
 RfuFamily = RfuBot + Family
 
 protectname = []
@@ -87,10 +87,10 @@ settings = {
     "changePictureProfile":False,
     "unsendMessage": False,
     "autoJoinTicket": False,
-    "welcome":"สวัสดีคนมาใหม่\n\nตั้งข้อความต้อนรับด้วยคับ\nVҜ ŚẾL₣ВΌŦ",
-    "kick":"งิเตะทมอยยย😂\nVҜ ŚẾL₣ВΌŦ",
-    "bye":"ไปซ่ะละ ลาก่อยยย\nVҜ ŚẾL₣ВΌŦ",
-    "Respontag":"แทคทำไมเดะจับเย็ดตูด!",
+    "welcome":"╔══•⊰✯⊱✴❤✴⊰✯⊱•══╗\n\n(moon attracted)สวัสดีสมาชิกใหม่(moon attracted)\n🙏ยินดีต้อนรับจร้าาา🙏 \n(hmph)มาแร้วอย่าดื้ออย่าซน(hmph)\n(james wink)ทำตัวน่ารักๆอย่าตบตีกันล่ะ(james wink)\n(cony kiss)เข้ามาแล้วแนะนำตัวด้วยนะ(cony kiss)\n(brown beloved)(brown beloved)\n(นาฬิกา)กรุณาปิดแจ้งเตือนด้วยค่าบ(quiet)\n\n╚══•⊰✯⊱✴❤✴⊰✯⊱•══╝\nVҜ ŚẾL₣ВΌŦ",
+    "kick":"งิเตะทมายยย😂\nVҜ ŚẾL₣ВΌŦ",
+    "bye":"สำหรับฉันมันเพิ่งเริ่มต้น\nแต่สำหรับเธอ\nมันสิ้นสุดลงแล้ว\nลาก่อนเพิ่อนรัก\nVҜ ŚẾL₣ВΌŦ",
+    "Respontag":"แทคมานี่อยากมีเรื่องหรืออยากมีลูกห้ะ!",
     "eror":"คุณใช้คำสั่งผิด สั่งบอทอีกครั้ง!",
     "spam":{},
     "invite": {},
@@ -99,7 +99,7 @@ settings = {
     "pname": {},
     "pro_name": {},
     "message1":"แอดมารัก หรือ แอดมารัน😊",
-    "message":"บัญชีนี้ถูกป้องกันโดย VҜ ŚẾL₣ВΌŦ ระบบได้บล็อคคุณอัตโนมัติ!",
+    "message":"บัญชีนี้ถูกป้องกันโดย แอดมิน คนหล่อ ระบบได้บล็อคคุณอัตโนมัติ!",
     "comment":"""ŚẾL₣ВΌŦ BY:
 ╔══════════════┓
 ╠       VҜ ŚẾL₣ВΌŦ
@@ -394,7 +394,7 @@ def listgrup():
 ╠❋►เปลี่ยนรูปกลุ่ม
 ╠❋►ประกาศ
 ╠❋►Vk @
-╠❋►หีแหก @
+╠❋►แหก @
 ╠❋►แบนหมด
 ╠❋►แบน @
 ╠❋►ยกเลิก @
@@ -826,10 +826,10 @@ def lineBot(op):
                 elif "n" == msg.text.lower():
                     msg.contentType = 13
                     line.sendMessage(to, "=========================")
-                    line.sendContact(to, "u0035a5a6c5ae9d30c9a0992ecbc39395")
-                    line.sendContact(to, "u590d74c3ea29085e3a5ecc2a3c2774ad")
-                    line.sendContact(to, "u646f9c4263b465c1325ff0668c93ac23")
-                    line.sendContact(to, "uddeed56c41e83b27740ede8fc1d5a645")
+                    line.sendContact(to, "u3f3acb2be414b688b55a4f9241e7568d")
+                    line.sendContact(to, "u3f3acb2be414b688b55a4f9241e7568d")
+                    line.sendContact(to, "u3f3acb2be414b688b55a4f9241e7568d")
+                    line.sendContact(to, "u3f3acb2be414b688b55a4f9241e7568d")
                     line.sendMessage(to, "=========================")
 #===========
                 elif "เพลงมา" == msg.text.lower():
@@ -837,19 +837,19 @@ def lineBot(op):
 #==============================================================================#
                 elif "creator" == msg.text.lower():
                     line.sendMessage(to,"CREATOR ŚẾL₣ВΌŦ\n(｡◕‿◕｡)")
-                    line.sendContact(to, "u0035a5a6c5ae9d30c9a0992ecbc39395")
+                    line.sendContact(to, "u3f3acb2be414b688b55a4f9241e7568d")
                 elif "ไวรัส" == msg.text.lower():
                     line.sendMessage(to, "หยุด ขอให้อยู่ในความสงบ")
-                    line.sendContact(to, "ud95860b8e3a6b3d2454cde75d9a5e3ec',")
+                    line.sendContact(to, "u3f3acb2be414b688b55a4f9241e7568d',")
                 elif "ทีมบอท" == msg.text.lower():
                     msg.contentType = 13
                     line.sendMessage(to, "CREAROT & ADMIN \nŚẾL₣ВΌŦ (｡◕‿◕｡)")
-                    line.sendContact(to, "u0035a5a6c5ae9d30c9a0992ecbc39395")
-                    line.sendContact(to, "u9e0f538586963f09c59b75648081e9d5")
-                    line.sendContact(to, "ubf4806077f2b20dd22fb3a7072eb0eb8")
-                    line.sendContact(to, "ufec28f9f699a2cb6444e62e5397fe115")
-                    line.sendContact(to, "ue1a44110ed4e82ba603010445f0ba585")
-                    line.sendContact(to, "u6588c368db2307a41862b7385e00f4d8")                        
+                    line.sendContact(to, "u3f3acb2be414b688b55a4f9241e7568d")
+                    line.sendContact(to, "u3f3acb2be414b688b55a4f9241e7568d")
+                    line.sendContact(to, "u3f3acb2be414b688b55a4f9241e7568d")
+                    line.sendContact(to, "u3f3acb2be414b688b55a4f9241e7568d")
+                    line.sendContact(to, "u3f3acb2be414b688b55a4f9241e7568d")
+                    line.sendContact(to, "u3f3acb2be414b688b55a4f9241e7568d")                        
 #==============================================================================#
                 elif text.lower() == 'เช็ค':
                     try:
@@ -978,7 +978,7 @@ def lineBot(op):
                     line.sendContact(to, lineMID)                    
                 elif text.lower() == 'ผส':
                     sendMessageWithMention(to, lineMID)
-                    line.sendContact(to, "u0035a5a6c5ae9d30c9a0992ecbc39395")
+                    line.sendContact(to, "u3f3acb2be414b688b55a4f9241e7568d")
                 elif text.lower() == 'mid':
                     line.sendMessage(msg.to,"❥MID❋👇\n\n" +  lineMID)
                 elif text.lower() == 'ชื่อ':
